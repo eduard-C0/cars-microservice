@@ -17,6 +17,6 @@ export class CarService {
                     userId: 1,
                     type: carDto.type,
                 }})
-        console.log('Created user:', newCar)
+        console.log('Created car:', newCar)
     }
 }
